@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>GYRO</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.png"> -->
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+
+</head>
+
+
+<body>
+
+    <header>
+        <img src="assets/logo_text_blue.svg" alt="">
+
+        <nav>
+
+            <a href="">Services</a>
+            <a href="">Pricing</a>
+            <a href="">About Us</a>
+            <a href="">ENG</a>
+            <div class="download-button">
+                Download App
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div id="gradient"></div>
+
+
+        <img src="assets\top-dashed-ellipse.png" alt="" class="ellipse">
+
+
+        <div class="top-section" id="container">
+
+            <p class="slogan" id="text">SAFETY IN MOTION AROUND THE GLOBE</p>
+        
+            <div class="phone-and-buy">
+                <div class="phone-and-buy-Left">
+                    <p class="text-body-large">Travel confidently with our advanced damage control technology.</p>
+                    <div class="buy-button">BUY A GYRO</div>
+                </div>
+        
+                <img src="assets/phone-connectToGyro.png" alt="" class="phone-connectToGyro">
+            </div>    
+
+        </div>
+
+
+
+        <div class="services-section">
+            <h2 class="header">OUR SERVICES</h2>
+
+            <div class="services-section-content">
+                <div class="services-phone-container">
+                    <img src="assets/phone-services.png" alt="">
+                </div>
+                
+    
+                <div class="services-section-Right">
+                    <p class="title">We ensure your security and comfort on very step of your journey</p>
+                    
+                    <div class="service-cards-container">
+                        <div class="service-card">
+                            <p class="sub-header">01</p>
+                            <p class="title">Impact Monitoring</p>
+                            <p class="text-body-main">Track impacts to your baggage to pinpoint damage during your journey.</p>
+                        </div>
+                        <div class="service-card">
+                            <p class="sub-header">02</p>
+                            <p class="title">Impact Reports</p>
+                            <p class="text-body-main">Generate detailed impact reports to support insurance claims.</p>
+                        </div>
+                        <div class="service-card">
+                            <p class="sub-header">03</p>
+                            <p class="title">Travel Mangement</p>
+                            <p class="text-body-main">Travel management, automatic packing lists and bag organisation.</p>
+                        </div>
+                        <div class="service-card">
+                            <p class="sub-header">04</p>
+                            <p class="title">Travel in group</p>
+                            <p class="text-body-main">Share and track your travel companions’ belongings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+
+
+        <div class="services-section">
+
+        </div>
+
+    </main>
+
+
+</body>
+
+
+
+
+
+<script>
+    const container = document.getElementById('container');
+    const text = document.getElementById('text');
+  
+    function adjustFontSize() {
+      const containerWidth = container.offsetWidth;
+      let fontSize = 1; // Initial font size
+      text.style.fontSize = `${fontSize}px`;
+  
+      // Gradually increase font size until the text fills the container width
+      while (text.offsetWidth < containerWidth && fontSize < 100) {
+        fontSize++;
+        text.style.fontSize = `${fontSize}px`;
+      }
+  
+      // Reduce font size slightly to fit
+      text.style.fontSize = `${fontSize - 1}px`;
+    }
+  
+    window.addEventListener('resize', adjustFontSize);
+    adjustFontSize(); // Call on load
+  </script>
+
+
+
+</html>

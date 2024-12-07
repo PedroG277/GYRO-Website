@@ -1,0 +1,313 @@
+:root {
+    --bodyMargin: 15rem;
+    --bodyMargins: 0rem var(--bodyMargin) 0rem var(--bodyMargin);
+}
+
+body {
+    margin: var(--bodyMargins);
+    margin-top: 32px;
+    /* margin-left: 12rem;
+    margin-right: 12rem; */
+    background: rgb(1,20,39);
+    /* background: linear-gradient(130deg, rgba(1,20,39,1) 0%, rgba(4,50,98,1) 50%, rgba(7,28,50,1) 100%) fixed; */
+}
+
+#gradient{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(130deg, rgba(1,20,39,1) 0%, rgba(4,50,98,1) 50%, rgba(7,28,50,1) 100%);
+
+
+}
+
+
+/* -----TEXT STYLES----- */
+
+.header {
+    color: var(--primary, #043262);
+    text-align: center;
+    /* big header */
+    font-family: "Kumbh Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+
+    /* background-color: red; */
+}
+
+.sub-header {
+    color: var(--primary, #043262);
+    /* header */
+    font-family: "Kumbh Sans";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+
+
+    /* background-color: beige; */
+}
+
+
+.title {
+    color: #000;
+    text-align: justify;
+    /* title */
+    font-family: "Kumbh Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+
+    /* background-color: thistle; */
+}
+
+
+.text-body-main {
+    color: var(--black, #01101F);
+    text-align: justify;
+    /* corpo */
+    font-family: "Nunito Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+
+    /* background-color: turquoise; */
+}
+
+
+
+/* -----HEADER----- */
+
+header {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+header img {
+    /* background-color: aquamarine; */
+    width: 152px;
+}
+
+header nav {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+nav a {
+    color: var(--full-white, #FFF);
+    /* corpo */
+    font-family: "Nunito Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.download-button {
+    background: var(--full-white, #FFF);
+    color: var(--primary, #043262);
+    /* corpo */
+    font-family: "Nunito Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+
+}
+
+
+
+/* -----TOP SECTION----- */
+
+.ellipse {
+    position: absolute;
+    right: 8rem;
+    top: 7rem;
+    z-index: 1;
+}
+
+.top-section {
+    /* background-color: cyan; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    left: var(--bodyMargin);
+    right: var(--bodyMargin);
+    bottom: 0;
+    z-index: 2;
+
+}
+
+
+.slogan {
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+    /* background-color: bisque; */
+
+    color: var(--full-white, #FFF);
+    text-align: center;
+
+    /* big header */
+    font-family: "Kumbh Sans";
+    /* font-size: 3rem; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.phone-and-buy {
+    /* background-color: burlywood; */
+    overflow: hidden;
+    height: 28.69rem;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.phone-and-buy-Left{
+    /* background-color: darkcyan; */
+    width: 30.62rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    z-index: 2;
+}
+
+.text-body-large {
+    color: var(--full-white, #FFF);
+    text-align: justify;
+
+    /* title */
+    font-family: "Kumbh Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.buy-button {
+    overflow: hidden;
+    color: var(--primary, #043262);
+    text-overflow: ellipsis;
+    /* title */
+    font-family: "Kumbh Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 0.75rem;
+    background: var(--full-white, #FFF);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.phone-connectToGyro {
+    width: 21.5rem;
+    align-self: flex-start;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+/* -------SERVICES------- */
+
+.services-section {
+    position: absolute;
+    z-index: 3;
+    top: 97vh;
+    left: 0;
+    right: 0;
+
+    border-radius: 1.25rem;
+    background-color: white;
+
+    padding: var(--bodyMargins);
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.services-section-content {
+    padding-top: 3.3rem;
+    display: flex;
+    gap: 3.25rem;
+    align-items: start;
+}
+
+
+.services-phone-container{
+    padding: 2rem 6rem 2rem 6rem;
+    border-radius: 1.25rem;
+
+    background: linear-gradient(180deg, #043262 0%, #B4D3F1 52%, #FFF 87%);
+}
+
+
+.services-phone-container img{
+    width: 15.3125rem;
+}
+
+
+.service-cards-container {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.service-card {
+    /* background-color: cyan; */
+
+    height: fit-content;
+    gap: 0px;
+}
+
+.service-card .sub-header {
+    padding-bottom: .5rem;
+}
+
+.service-card .title {
+    padding-bottom: 1rem;
+}
