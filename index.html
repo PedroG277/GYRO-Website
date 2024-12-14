@@ -28,7 +28,6 @@
             <a href="">Services</a>
             <a href="">Pricing</a>
             <a href="">About Us</a>
-            <a href="">ENG</a>
             <div class="download-button">
                 Download App
             </div>
@@ -38,8 +37,6 @@
 
 
     <main>
-        <div id="gradient"></div>
-
 
         <img src="assets\top-dashed-ellipse.png" alt="" class="ellipse">
 
@@ -50,65 +47,345 @@
         
             <div class="phone-and-buy">
                 <div class="phone-and-buy-Left">
-                    <p class="text-body-large">Travel confidently with our advanced damage control technology.</p>
-                    <div class="buy-button">BUY A GYRO</div>
+                    <div id="travel-and-buy">
+                        <p class="text-body-large">Travel confidently with our advanced damage control technology.</p>
+                        <div class="buy-button">GET A GYRO</div>
+                    </div>
+
+                    <div>
+                        <h2>OUR SERVICES</h2>
+                        <p class="text-body-large" id="services-subtitle">We ensure your security and confort on every step of your journey.</p>
+                    </div>
+                    
                 </div>
         
                 <img src="assets/phone-connectToGyro.png" alt="" class="phone-connectToGyro">
             </div>    
+            
 
         </div>
 
-
+        <img src="assets/tilted-phone.png" alt="" id="tilted-phone">
 
         <div class="services-section">
-            <h2 class="header">OUR SERVICES</h2>
 
-            <div class="services-section-content">
-                <div class="services-phone-container">
-                    <img src="assets/phone-services.png" alt="">
-                </div>
-                
-    
-                <div class="services-section-Right">
-                    <p class="title">We ensure your security and comfort on very step of your journey</p>
-                    
-                    <div class="service-cards-container">
-                        <div class="service-card">
-                            <p class="sub-header">01</p>
-                            <p class="title">Impact Monitoring</p>
-                            <p class="text-body-main">Track impacts to your baggage to pinpoint damage during your journey.</p>
-                        </div>
-                        <div class="service-card">
-                            <p class="sub-header">02</p>
-                            <p class="title">Impact Reports</p>
-                            <p class="text-body-main">Generate detailed impact reports to support insurance claims.</p>
-                        </div>
-                        <div class="service-card">
-                            <p class="sub-header">03</p>
-                            <p class="title">Travel Mangement</p>
-                            <p class="text-body-main">Travel management, automatic packing lists and bag organisation.</p>
-                        </div>
-                        <div class="service-card">
-                            <p class="sub-header">04</p>
-                            <p class="title">Travel in group</p>
-                            <p class="text-body-main">Share and track your travel companions’ belongings.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="service-card">
+                <p class="service-number">01</p>
+                <p class="service-name">Impact Monitoring</p>
+                <p class="service-description">Track impacts to your baggage to pinpoint damage during your journey.</p>
             </div>
 
-            
+            <div class="service-card">
+                <p class="service-number">02</p>
+                <p class="service-name">Impact Reports</p>
+                <p class="service-description">Generate detailed impact reports to support insurance claims.</p>
+            </div>
+
+            <div class="service-card">
+                <p class="service-number">03</p>
+                <p class="service-name">Travel Mangement</p>
+                <p class="service-description">Travel management, automatic packing lists and bag organisation.</p>
+            </div>
+
+            <div class="service-card">
+                <p class="service-number">04</p>
+                <p class="service-name">Travel in group</p>
+                <p class="service-description">Share and track your travel companions' belongings.</p>
+            </div>
         </div>
 
 
+        <div id="malinha-section">
+            <div id="malinha-section-left">
+                <div>
+                    <p class="service-number">Travel smart, travel safe.</p>
+                    <p class="service-number">Travel with GYRO.</p>
+                </div>
+                <div>
+                    <p class="service-description">
+                        At GYRO, we transform journeys with smart solutions designed to ensure safety, organisation, and peace of mind.
+                    </p>
+                    <p></p>
+                    <p class="service-description">
+                        Our mission is to simplify travelling by offering a reliable luggage tracking, damage detection, and intuitive trip management tools. From real-time bag monitoring to personalised packing lists, GYRO keeps you in control and ready for every adventure.
+                    </p>
+                    <p></p>
+                    <p class="service-description">
+                        What began as a university project has evolved into a trusted, globally recognised travel companion.
+                    </p>
+                </div>
+               
+            </div>
+            <img src="assets/malinha.png" alt="" id="malinha-img">          
+        </div>
 
 
-        <div class="services-section">
+        <div id="clients-section">
+            <h2>WHAT DO OUR CLIENTS SAY?</h2>
+            
+            <div class="carousel">
+                <button class="carousel-btn left" onclick="moveSlide(-1)">
+                    <img src="assets/arrow-left.svg" alt="" width="28px">
+                </button>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <div class="client-card">
+                            <div class="clients-card-left">
+                                <p class="service-description client-talk">Travelling has never been easier! GYRO surely allows me not to fear for my bag anymore.</p>
+                                <div class="client-name-type">
+                                    <p class="client-name">Maya Manson</p>
+                                    <p class="client-type">Regular Traveler</p>
+                                </div>
+                            </div>
+                            <img src="assets/moça.png" alt="" class="moça">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="client-card">
+                            <div class="clients-card-left">
+                                <p class="service-description client-talk">Travelling has never been easier! GYRO surely allows me not to fear for my bag anymore.</p>
+                                <div class="client-name-type">
+                                    <p class="client-name">Maya Manson</p>
+                                    <p class="client-type">Regular Traveler</p>
+                                </div>
+                            </div>
+                            <img src="assets/moça.png" alt="" class="moça">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="client-card">
+                            <div class="clients-card-left">
+                                <p class="service-description client-talk">Travelling has never been easier! GYRO surely allows me not to fear for my bag anymore.</p>
+                                <div class="client-name-type">
+                                    <p class="client-name">Maya Manson</p>
+                                    <p class="client-type">Regular Traveler</p>
+                                </div>
+                            </div>
+                            <img src="assets/moça.png" alt="" class="moça">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="client-card">
+                            <div class="clients-card-left">
+                                <p class="service-description client-talk">Travelling has never been easier! GYRO surely allows me not to fear for my bag anymore.</p>
+                                <div class="client-name-type">
+                                    <p class="client-name">Maya Manson</p>
+                                    <p class="client-type">Regular Traveler</p>
+                                </div>
+                            </div>
+                            <img src="assets/moça.png" alt="" class="moça">
+                        </div>
+                    </div>
+
+                
+                </div>
+                <button class="carousel-btn right" onclick="moveSlide(1)">
+                    <img src="assets/arrow-left.svg" alt="" width="28px">
+                </button>
+            </div>
+        </div>
+
+
+        <div id="pricing-section">
+            <div id="pricing-title">
+                <h2>PRICING</h2>
+                <p class="service-name">Plans are paid monthly</p>
+            </div>
+            
+
+            <div id="plans-container">
+                <div class="plans-card" id="free-plan">
+                    <div class="plan-title-and-price">
+                        <p class="service-number" id="free-plan-title">Free</p>
+                        <div class="plan-price" id="free-plan-price">0€</div>
+                    </div>
+                    <p class="service-description plan-description">All basic features and utilities</p>
+                    <div class="plan-divider" id="free-divider"></div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Trip Details (Manual)</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Trip Lists (Manual)</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Luggage Location</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Luggage Trips and Impact-History</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Automatic Trip Details</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Automatic Trip Lists</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle.svg" alt="" class="check_circle">
+                        <p class="service-description plan-description">Automatic Bag Organization</p>
+                    </div>
+
+                    <div class="buy-button plan-button" id="free-plan-button">Download App</div>
+                </div>
+
+                <div class="plans-card" id="premium-plan">
+                    <div class="plan-title-and-price">
+                        <p class="service-number" id="premium-plan-title">Premium</p>
+                        <div class="plan-price" id="premium-plan-price">15€</div>
+                    </div>
+                    <p class="service-description white-plan-description">1 year free with the purchase of GYRO tech.</p>
+                    <div class="plan-divider" id="premium-divider"></div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Trip Details (Manual)</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Trip Lists (Manual)</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Luggage Location</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Luggage Trips and Impact-History</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Automatic Trip Details</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Automatic Trip Lists</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Automatic Bag Organization</p>
+                    </div>
+
+                    <div class="buy-button plan-button" id="premium-plan-button">Try 1 Month Free</div>
+                </div>
+
+
+                <div class="plans-card" id="advanced-plan">
+                    <div class="plan-title-and-price">
+                        <p class="service-number" id="advanced-plan-title">Advanced</p>
+                        <div class="plan-price" id="advanced-plan-price">20€</div>
+                    </div>
+                    <p class="service-description white-plan-description">Family Plan: Group trip management</p>
+                    <div class="plan-divider" id="advanced-divider"></div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Trip Details (Manual)</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Trip Lists (Manual)</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Luggage Location</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Luggage Trips and Impact-History</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Automatic Trip Details</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Automatic Trip Lists</p>
+                    </div>
+                    <div class="plan-item">
+                        <img src="assets/check_circle-white.svg" alt="" class="check_circle-white">
+                        <p class="service-description white-plan-description">Automatic Bag Organization</p>
+                    </div>
+
+                    <div class="buy-button plan-button" id="advanced-plan-button">Purchase Plan</div>
+                </div>
+    
+            </div>
+        </div>
+
+
+        <div id="contact-section">
+            <h2>CONTACT US</h2>
+
+            <div id="contact-card">
+                <div id="contact-info-card">
+                    <p class="service-number">Contact Info</p>
+                    <div class="contact-info-item">
+                        <img src="assets/mail.svg" alt="">
+                        <p class="service-name">info@gyro.pt</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <img src="assets/call.svg" alt="">
+                        <p class="service-name">+351 978 854 756</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <img src="assets/apartment.svg" alt="">
+                        <p class="service-name">ISCTE Sintra, Portugal</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <img src="assets/alarm.svg" alt="">
+                        <p class="service-name">09:00 - 18:00</p>
+                    </div>
+                </div>
+
+                <div id="contact-form-container">
+                    <p class="service-name" id="contact-text">Fell free to contact us any time. We will get back as soon as we can.</p>
+                    <form action="" id="contact-form">
+                        <div id="name-email-form">
+                            <input type="text" name="nameInput" placeholder="Name">
+
+                            <input type="text" name="emainInput" placeholder="Email">
+                        </div>
+
+                        <input type="text" name="subjectInput" placeholder="Subject">
+                        
+                        <textarea name="messageInput" id="" placeholder="Message"></textarea>
+
+                    </form>
+
+                    <div class="buy-button" id="form-button">SEND</div>
+                </div>
+            </div>
 
         </div>
 
     </main>
+
+    <footer>
+        <div id="footer-top">
+            <img src="assets/logo_text_blue.svg" alt="">
+            <div id="footer-nav">
+                <a href="">SHOP</a>
+                <a href="">FAQ</a>
+                <a href="">CONTACTS</a>
+            </div>
+        </div>
+
+        <div id="footer-social-media">
+            <img src="assets/facebook.svg" alt="" id="facebook-icon">
+            <img src="assets/instagram.svg" alt="" id="instagram-icon">
+        </div>
+
+        <div id="footer-divider"></div>
+
+        <p>© 2024 GYRO. All rights reserved.</p>
+
+    </footer>
 
 
 </body>
@@ -138,7 +415,33 @@
   
     window.addEventListener('resize', adjustFontSize);
     adjustFontSize(); // Call on load
-  </script>
+
+
+
+
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.carousel-item');
+    const carouselInner = document.querySelector('.carousel-inner');
+    slides[currentIndex].classList.add('active');
+
+
+    function moveSlide(direction) {
+        const totalSlides = slides.length;
+        slides[currentIndex].classList.remove('active');
+
+        currentIndex += direction;
+        if (currentIndex < 0) currentIndex = totalSlides - 1;
+        if (currentIndex >= totalSlides) currentIndex = 0;
+
+        slides[currentIndex].classList.add('active');
+        setPositionByIndex();
+    }
+
+    function setPositionByIndex() {
+        const offset = -(carouselInner.clientWidth / 4) * currentIndex;
+        carouselInner.style.transform = `translateX(${offset}px)`;
+    }
+    </script>
 
 
 
