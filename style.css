@@ -437,6 +437,8 @@ h2 {
 
 #pricing-title h2 {
     margin: 0 auto;
+    margin-bottom: 0.5rem;
+
 }
 
 
@@ -444,6 +446,7 @@ h2 {
     display: flex;
     gap: 1rem;
     align-items: end;
+    justify-content: center;
 }
 
 .plans-card {
@@ -521,10 +524,6 @@ h2 {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 1.5rem;
-}
-
-#free-plan-price {
-    display: none;
 }
 
 
